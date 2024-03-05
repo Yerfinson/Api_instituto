@@ -89,4 +89,52 @@ que encontrara en este mismo repositorio para un correcto funcionamineto del Api
   - `400 Bad Request`: Se debe proporcionar al menos uno de los campos (`nombre` o `apellido`) para realizar la actualización.
   - `404 Not Found`: No se encontró un estudiante con la identificación proporcionada.
   - `500 Internal Server Error`: Error interno del servidor.
+  - 
+## Tabla Cursos
+
+## GET `/api/Cursos/GetCourses`
+
+- **Descripción:**
+  - Obtiene información sobre cursos.
+  - Puede obtener todos los cursos o filtrar por nombre si se proporciona un parámetro.
+
+- **Parámetros de consulta:**
+  - `name` (opcional): Nombre del curso para filtrar los resultados.
+
+- **Respuestas:**
+  - `200 OK`: La solicitud fue exitosa. Devuelve una lista de cursos o un curso específico, según el parámetro de nombre.
+  - `404 Not Found`: No se encontró un curso con el nombre proporcionado.
+  - `500 Internal Server Error`: Error interno del servidor.
+
+---
+
+## POST `/api/Cursos/CreateCourse`
+
+- **Descripción:**
+  - Crea un nuevo curso en la base de datos.
+
+- **Parámetros del cuerpo (JSON):**
+  - `nombre`: Nombre del curso.
+  - `descripcion` (opcional): Descripción del curso.
+
+- **Respuestas:**
+  - `200 OK`: El curso se creó con éxito.
+  - `409 Conflict`: El curso con el nombre proporcionado ya existe.
+  - `500 Internal Server Error`: Error interno del servidor.
+
+---
+
+## DELETE `/api/Cursos/DeleteCoursebyname`
+
+- **Descripción:**
+  - Elimina un curso de la base de datos.
+
+- **Parámetros de consulta:**
+  - `name`: Nombre del curso que se va a eliminar.
+
+- **Respuestas:**
+  - `200 OK`: El curso se eliminó con éxito.
+  - `404 Not Found`: No se encontró un curso con el nombre proporcionado.
+  - `500 Internal Server Error`: Error interno del servidor.
+
 
