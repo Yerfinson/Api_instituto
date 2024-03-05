@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yefer\\OneDrive\\Escritorio\\API_istitucion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A22F4A4-0041-49F1-AC87-D33B196C52F1}|API_institucion\\API_institucion.csproj|c:\\users\\yefer\\onedrive\\escritorio\\api_istitucion\\api_institucion\\models\\cursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A22F4A4-0041-49F1-AC87-D33B196C52F1}|API_institucion\\API_institucion.csproj|solutionrelative:api_institucion\\models\\cursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A22F4A4-0041-49F1-AC87-D33B196C52F1}|API_institucion\\API_institucion.csproj|c:\\users\\yefer\\onedrive\\escritorio\\api_istitucion\\api_institucion\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A22F4A4-0041-49F1-AC87-D33B196C52F1}|API_institucion\\API_institucion.csproj|solutionrelative:api_institucion\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A22F4A4-0041-49F1-AC87-D33B196C52F1}|API_institucion\\API_institucion.csproj|c:\\users\\yefer\\onedrive\\escritorio\\api_istitucion\\api_institucion\\models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A22F4A4-0041-49F1-AC87-D33B196C52F1}|API_institucion\\API_institucion.csproj|solutionrelative:api_institucion\\models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A22F4A4-0041-49F1-AC87-D33B196C52F1}|API_institucion\\API_institucion.csproj|c:\\users\\yefer\\onedrive\\escritorio\\api_istitucion\\api_institucion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A22F4A4-0041-49F1-AC87-D33B196C52F1}|API_institucion\\API_institucion.csproj|solutionrelative:api_institucion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A22F4A4-0041-49F1-AC87-D33B196C52F1}|API_institucion\\API_institucion.csproj|c:\\users\\yefer\\onedrive\\escritorio\\api_istitucion\\api_institucion\\models\\db\\institutocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A22F4A4-0041-49F1-AC87-D33B196C52F1}|API_institucion\\API_institucion.csproj|solutionrelative:api_institucion\\models\\db\\institutocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A22F4A4-0041-49F1-AC87-D33B196C52F1}|API_institucion\\API_institucion.csproj|c:\\users\\yefer\\onedrive\\escritorio\\api_istitucion\\api_institucion\\api_institucion.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{0A22F4A4-0041-49F1-AC87-D33B196C52F1}|API_institucion\\API_institucion.csproj|solutionrelative:api_institucion\\api_institucion.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A22F4A4-0041-49F1-AC87-D33B196C52F1}|API_institucion\\API_institucion.csproj|c:\\users\\yefer\\onedrive\\escritorio\\api_istitucion\\api_institucion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0A22F4A4-0041-49F1-AC87-D33B196C52F1}|API_institucion\\API_institucion.csproj|solutionrelative:api_institucion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cursos.cs",
+              "DocumentMoniker": "C:\\Users\\yefer\\OneDrive\\Escritorio\\API_istitucion\\API_institucion\\Models\\Cursos.cs",
+              "RelativeDocumentMoniker": "API_institucion\\Models\\Cursos.cs",
+              "ToolTip": "C:\\Users\\yefer\\OneDrive\\Escritorio\\API_istitucion\\API_institucion\\Models\\Cursos.cs",
+              "RelativeToolTip": "API_institucion\\Models\\Cursos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T03:46:48.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Estudiante.cs",
+              "DocumentMoniker": "C:\\Users\\yefer\\OneDrive\\Escritorio\\API_istitucion\\API_institucion\\Models\\Estudiante.cs",
+              "RelativeDocumentMoniker": "API_institucion\\Models\\Estudiante.cs",
+              "ToolTip": "C:\\Users\\yefer\\OneDrive\\Escritorio\\API_istitucion\\API_institucion\\Models\\Estudiante.cs",
+              "RelativeToolTip": "API_institucion\\Models\\Estudiante.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T03:21:42.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "API_institucion.http",
+              "DocumentMoniker": "C:\\Users\\yefer\\OneDrive\\Escritorio\\API_istitucion\\API_institucion\\API_institucion.http",
+              "RelativeDocumentMoniker": "API_institucion\\API_institucion.http",
+              "ToolTip": "C:\\Users\\yefer\\OneDrive\\Escritorio\\API_istitucion\\API_institucion\\API_institucion.http",
+              "RelativeToolTip": "API_institucion\\API_institucion.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-03-04T20:08:04.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EstudiantesController.cs",
+              "DocumentMoniker": "C:\\Users\\yefer\\OneDrive\\Escritorio\\API_istitucion\\API_institucion\\Controllers\\EstudiantesController.cs",
+              "RelativeDocumentMoniker": "API_institucion\\Controllers\\EstudiantesController.cs",
+              "ToolTip": "C:\\Users\\yefer\\OneDrive\\Escritorio\\API_istitucion\\API_institucion\\Controllers\\EstudiantesController.cs",
+              "RelativeToolTip": "API_institucion\\Controllers\\EstudiantesController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwM4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T19:17:49.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InstitutoContext.cs",
+              "DocumentMoniker": "C:\\Users\\yefer\\OneDrive\\Escritorio\\API_istitucion\\API_institucion\\Models\\DB\\InstitutoContext.cs",
+              "RelativeDocumentMoniker": "API_institucion\\Models\\DB\\InstitutoContext.cs",
+              "ToolTip": "C:\\Users\\yefer\\OneDrive\\Escritorio\\API_istitucion\\API_institucion\\Models\\DB\\InstitutoContext.cs",
+              "RelativeToolTip": "API_institucion\\Models\\DB\\InstitutoContext.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowDcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T19:16:47.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yefer\\OneDrive\\Escritorio\\API_istitucion\\API_institucion\\Program.cs",
+              "RelativeDocumentMoniker": "API_institucion\\Program.cs",
+              "ToolTip": "C:\\Users\\yefer\\OneDrive\\Escritorio\\API_istitucion\\API_institucion\\Program.cs",
+              "RelativeToolTip": "API_institucion\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAACJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T20:08:21.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\yefer\\OneDrive\\Escritorio\\API_istitucion\\API_institucion\\appsettings.json",
+              "RelativeDocumentMoniker": "API_institucion\\appsettings.json",
+              "ToolTip": "C:\\Users\\yefer\\OneDrive\\Escritorio\\API_istitucion\\API_institucion\\appsettings.json",
+              "RelativeToolTip": "API_institucion\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-04T20:20:26.585Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
