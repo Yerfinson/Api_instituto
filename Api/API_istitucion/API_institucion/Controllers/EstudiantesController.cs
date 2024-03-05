@@ -28,7 +28,7 @@ namespace API_institucion.Controllers
                 if (identificacion > 0)
                 {
                     // Filtrar por identificación si se proporciona
-                    var estudianteById = estudiantes.FirstOrDefault(x => x.Estu_identification_number == identificacion);
+                    var estudianteById = estudiantes.FirstOrDefault(x => x.Estu_identification_number == identificacion && x.Estu_status == true);
 
                     if (estudianteById != null)
                     {
@@ -73,7 +73,7 @@ namespace API_institucion.Controllers
             try
             {
                 // Verificar si el estudiante ya existe
-                var estudianteExistente = await _context.Estudents.FirstOrDefaultAsync(x => x.Estu_identification_number == documento);
+                var estudianteExistente = await _context.Estudents.FirstOrDefaultAsync(x => x.Estu_identification_number == documento && x.Estu_status == true);
 
                 if (estudianteExistente == null)
                 {
@@ -126,7 +126,7 @@ namespace API_institucion.Controllers
             try
             {
                 // Buscar el estudiante por identificación
-                var estudiante = await _context.Estudents.FirstOrDefaultAsync(x => x.Estu_identification_number == identificacion);
+                var estudiante = await _context.Estudents.FirstOrDefaultAsync(x => x.Estu_identification_number == identificacion && x.Estu_status == true);
 
                 if (estudiante != null)
                 {
@@ -183,7 +183,7 @@ namespace API_institucion.Controllers
                 }
 
                 // Buscar el estudiante por identificación
-                var estudiante = await _context.Estudents.FirstOrDefaultAsync(x => x.Estu_identification_number == identificacion);
+                var estudiante = await _context.Estudents.FirstOrDefaultAsync(x => x.Estu_identification_number == identificacion && x.Estu_status == true);
 
                 if (estudiante != null)
                 {

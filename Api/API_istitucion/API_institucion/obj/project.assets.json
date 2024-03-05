@@ -4506,11 +4506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yefer\\OneDrive\\Escritorio\\API_istitucion\\API_institucion\\API_institucion.csproj",
+      "projectUniqueName": "C:\\Users\\yefer\\OneDrive\\Escritorio\\Entrega\\Api_instituto\\Api\\API_istitucion\\API_institucion\\API_institucion.csproj",
       "projectName": "API_institucion",
-      "projectPath": "C:\\Users\\yefer\\OneDrive\\Escritorio\\API_istitucion\\API_institucion\\API_institucion.csproj",
+      "projectPath": "C:\\Users\\yefer\\OneDrive\\Escritorio\\Entrega\\Api_instituto\\Api\\API_istitucion\\API_institucion\\API_institucion.csproj",
       "packagesPath": "C:\\Users\\yefer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yefer\\OneDrive\\Escritorio\\API_istitucion\\API_institucion\\obj\\",
+      "outputPath": "C:\\Users\\yefer\\OneDrive\\Escritorio\\Entrega\\Api_instituto\\Api\\API_istitucion\\API_institucion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yefer\\AppData\\Roaming\\NuGet\\NuGet.Config",

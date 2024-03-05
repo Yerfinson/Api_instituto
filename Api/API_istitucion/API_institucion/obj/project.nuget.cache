@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BHybyEs/gtQ6wzHmzBNofhZ5vHGQ750JQy4FV8bfo7Hp5ieXn392W7e5yJPSTFmSJnddqfnMpOsGYhlwP64nmA==",
+  "dgSpecHash": "qed7b1AGYQDTD4Ox+hrIhvlBw3YAH9nPRYxQdtxH3myomVNstMAqpeH2nqEXX7Aj8/cf/wYWHjoTHsuQxQU7Ng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yefer\\OneDrive\\Escritorio\\API_istitucion\\API_institucion\\API_institucion.csproj",
+  "projectFilePath": "C:\\Users\\yefer\\OneDrive\\Escritorio\\Entrega\\Api_instituto\\Api\\API_istitucion\\API_institucion\\API_institucion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yefer\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\yefer\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

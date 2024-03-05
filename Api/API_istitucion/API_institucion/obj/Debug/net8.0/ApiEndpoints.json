@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "API_institucion.Controllers.CursosController",
-    "Method": "CreateEstudent",
+    "Method": "CreateCourse",
     "RelativePath": "api/Cursos/CreateCourse",
     "HttpMethod": "POST",
     "IsController": true,
@@ -14,6 +14,22 @@
       },
       {
         "Name": "descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_institucion.Controllers.CursosController",
+    "Method": "DeleteCoursebyname",
+    "RelativePath": "api/Cursos/DeleteCoursebyname",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
         "Type": "System.String",
         "IsRequired": false
       }

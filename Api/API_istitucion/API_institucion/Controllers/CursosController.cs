@@ -63,7 +63,7 @@ namespace API_institucion.Controllers
         }
         [HttpPost]
         [Route("CreateCourse")]
-        public async Task<IActionResult> CreateEstudent( string nombre, string? descripcion)
+        public async Task<IActionResult> CreateCourse( string nombre, string? descripcion)
         {
             using var transaction = _context.Database.BeginTransaction();
             try
@@ -98,6 +98,52 @@ namespace API_institucion.Controllers
                     return StatusCode(StatusCodes.Status409Conflict, new
                     {
                         message = "The course with the specified name already exists",
+                    });
+                }
+            }
+            catch (Exception ex)
+            {
+                // Revertir la transacción en caso de error
+                transaction.Rollback();
+
+                return StatusCode(StatusCodes.Status500InternalServerError, new
+                {
+                    message = ex.Message,
+                });
+            }
+        }
+        [HttpDelete]
+        [Route("DeleteCoursebyname")]
+        public async Task<IActionResult> DeleteCoursebyname(string name)
+        {
+            using var transaction = _context.Database.BeginTransaction();
+            try
+            {
+                // Buscar el curso por nombre
+                var Curso = await _context.Courses.FirstOrDefaultAsync(x => x.Cour_name == name);
+
+                if (Curso != null)
+                {                   
+                    //borrar registro de la base de datos(No recomendado)
+                    _context.Courses.Remove(Curso);
+
+                    // Guardar cambios en la base de datos
+                    await _context.SaveChangesAsync();
+                    // Confirmar la transacción
+                    transaction.Commit();
+
+                    return StatusCode(StatusCodes.Status200OK, new
+                    {
+                        message = "DeleteCourseSuccess",
+                        data = Curso
+                    });
+                }
+                else
+                {
+                    // El curso no se encontró, devolver un código 404 Not Found
+                    return StatusCode(StatusCodes.Status404NotFound, new
+                    {
+                        message = "Not deleted! Specified course not found.",
                     });
                 }
             }
