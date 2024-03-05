@@ -4,7 +4,7 @@ Api_creada acorde a la solicitud de la prueba
 ***Prerequisitos:***
 
 En el archivo `appsettings.json` recuerde cambiar el server por el nobre del servidor en donde se restaure la base de datos
-que encontrara en este mismo repsitroio 
+que encontrara en este mismo repositorio para un correcto funcionamineto del Api 
 ```json
 {
   "ConnectionStrings": {
